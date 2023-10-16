@@ -10,15 +10,25 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
     flex-direction: column;
     position: relative;
 
-    background-image: url("../images/picture04.jpg");
+    /* background-image: url("../images/picture04.jpg"); */
     height: 100vh;
-    background-size: 100%;
-    background-position: 0% 30%;
-    /* opacity: 0.9; */
+
+    z-index: 1;;
+    transition: background-image 1s ease-in-out;
+
+}
+
+.wrapper-center {
+    align-items: center;
 }
 
 @font-face {
     font-family: play-google;
     src: url("../../../public/fonts/Play-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../../../public/fonts/Roboto-Light.ttf");
 }
 

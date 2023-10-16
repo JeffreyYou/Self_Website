@@ -4,24 +4,20 @@ export const AppHeaderWrapper = styled.div`
 
     width: 50vw;
     height: 60px;
-    margin: 0 auto;
 
     z-index: 1;
     display: flex;
     justify-content: space-around;
+    position:fixed;
 
     /* border:1px solid; */
     border-radius: 30px;
     box-shadow: 0 0 5px 0.1px;
+    background: transparent;
 
-    /* background-color: rgba(50, 50, 50, 0.2); */
-    .content {
+    left: 50%;
+    transform: translate(-50%, 0);
 
-    }
-    .divider {
-    height: 5px;
-    background-color: #C20C0C;
-    }
 `
 
 export const HeaderLeft = styled.div`
@@ -70,7 +66,7 @@ export const HeaderMiddle = styled.div`
         border: 1.5px solid white;
         /* background-color: rgba(0, 0, 0, 0.2); */
         background: transparent;
-        transition: all .5s ease 0s;
+        transition: all .2s ease 0s;
     }
 
     .topics:nth-child(1).active ~ .shadow-animation {

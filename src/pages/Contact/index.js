@@ -1,8 +1,9 @@
 import React, { memo } from 'react'
+import { motion } from 'framer-motion'
 
 const Contact = memo(() => {
   return (
-    <div>Contact</div>
+    <motion.div>Contact</motion.div>
   )
 })
 
