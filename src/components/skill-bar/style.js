@@ -66,13 +66,7 @@ export const Title = styled.div`
         }
     }
     
-
-    
-
 `
-
-
-
 
 export const Content = styled.div`
     color: white; 
@@ -84,11 +78,16 @@ export const Content = styled.div`
     .skill-wrapper {
         width: 70%;
         position:absolute;
-        height: 70%;
+        height: 360px;
         left: 50%;
         transform: translate(-50%, 0);
 
-
+        .skill {
+            height: 100%;
+            .skill-inner{
+                height: 320px;
+            }
+        }
         .skill::before {
         content: "<h3>";
         opacity: 0.5;
@@ -114,7 +113,7 @@ export const Content = styled.div`
         opacity: 0.3;
         content: '';
         width: 0;
-        height: 65%;
+        height: 85%;
         position: absolute;
         background-color: white;
         border: 0.2px solid white;

@@ -31,28 +31,34 @@ const Expertise = memo(() => {
       title: "Backend",
       underline: "#e0058d",
       stack: "Java, SpringBoot",
-      content1: "Programming Languages: Java, Python, C++, Shell.",
-      content2: "Framework: Spring, SpringBoot",
-      content3: "Databse: MySQL, Redis, MongoDB, MyBatis, Hibernate",
-      content4: "Spring Cloud, Nacos, Feing"
+      content1: "Proficient in OOP languages such as Java, Python, C++, etc. ",
+      content2: "Java Core: JVM, Multithreading, Collections Framework, Garbage Collection, Thread Pool",
+      content3: "Database: MySQL, MongoDB, Redis, Master Slave Replication, ElasticSearch ",
+      // , Partitioning, Sharding, Caching
+      content4: "Framework: Spring, SpringBoot, Maven, Hadoop, MyBatis",
+      content5: "Tools: Git, Linux, AWS, Postman, Agile, Swagger API, JMeter, Jvisualvm, Slack, Drawio"
+
+      // content4: "Tools: Git, Linux, AWS, Postman, Swagger, Agile, Maven, Nginx, JMeter, Jvisualvm "
     },
     {
       title: "Frontend",
       underline: "#2d49d8",
       stack: "React, NextJS",
-      content1: "HTML/CSS, Javascript, React.js, Next.js",
-      content2: "Spring framework, SpringBoot",
-      content3: "HTTP, WebSocket",
-      content4: "Spring Cloud, Nacos, Feing"
+      content1: "Experienced in HTML/CSS, Javascript, React, Next.js",
+      content2: "Style Pattern: SCSS, Styled Component, Tailwind, Framer Motion, React Spring, Ant Design",
+      content3: "Tools: React Hooks, React Router, Redux, Zustand, webpack", 
+      content4: "Network: HTTPs, Websocket, SSL, Axios, Cookie, Session, Token ",
+      content5: "Optimization: Immutable, Role-Based Access Control, Server Side Rendering (SSR), Search Engine Optimization (SEO)",      
     },
     {
-      title: "Dev-Ops",
+      title: "Microservice",
       underline: "#ff6b2b",
-      stack: "Docker, Microservice",
-      content1: "Docker, Jenkins, Kubernetes",
-      content2: "Spring framework, SpringBoot",
-      content3: "HTTP, WebSocket",
-      content4: "Spring Cloud, Nacos, Feing"
+      stack: "Docker, SpringCloud",
+      content1: "Skilled in Docker, AWS, CI/CD, SpringCloud,",
+      content2: "Components: Nacos, Eureka, SpringCloud Gateway, SpringCloud Security, Kafka, OpenFeign, Redission, ",
+      content3: "API Gateway: Route, Filter, Predicate, Load Balancing, Distributed Session, ",
+      content4: "Security: Distributed lock, Rate Limiter, Circuit Breaker, OAuth2 ",
+      content5: "Dev-Ops: Docker, Jenkins, Kubernetes, Prometheus",
     }
 
   ]

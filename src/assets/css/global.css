@@ -22,6 +22,11 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
     align-items: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+    
+
 @font-face {
     font-family: play-google;
     src: url("../../../public/fonts/Play-Regular.ttf");

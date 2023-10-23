@@ -9,7 +9,7 @@ import {
     NewTitle
 } from './style'
 const SkillBar = memo((props) => {
-    const { title, content1, content2, content3, content4,  stack, underline } = props.data;
+    const { title, content1, content2, content3, content4, content5,  stack, underline } = props.data;
     const logo = props.svgComponent;
     // console.log(props);
 
@@ -32,10 +32,13 @@ const SkillBar = memo((props) => {
             <Content>
                 <div className='skill-wrapper'>
                     <div className='skill'>
-                        {content1}<br/><br/>
-                        {content2}<br/><br/>
-                        {content3}<br/><br/>
-                        {content4}<br/><br/>
+                        <div className='skill-inner'>
+                            {content1}<br/><br/>
+                            {content2}<br/><br/>
+                            {content3}<br/><br/>
+                            {content4}<br/><br/>
+                            {content5}<br/><br/>
+                        </div>
                     </div>
                 </div>
 

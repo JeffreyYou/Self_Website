@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 import { NavLink } from "react-router-dom";
 import { motion } from 'framer-motion'
-import { AnimatePresence } from 'framer-motion'
+// import { AnimatePresence } from 'framer-motion'
 
 import Intro from "../../components/intro"
 import { HomeWrapper } from './style'

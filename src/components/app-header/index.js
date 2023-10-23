@@ -1,6 +1,5 @@
-import React, { memo, useEffect, useState } from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
-
+import React, { memo, useState} from 'react'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 import {
   AppHeaderWrapper,
@@ -15,13 +14,23 @@ const AppHeader = memo(() => {
   const info = ["Home", "Expertise", "Work", "Project", "Contact"];
   const link = ["/", "/exp", "/work", "/project", "/contact"];
 
-  const location = useLocation();
-  const handler = (e, link) => {
-    if (location.pathname === link) {
-      // e.preventDefault();
-    }
-  }
-
+  // const location = useLocation();
+  // const handler = (e, link) => {
+  //   if (location.pathname === link) {
+  //     // e.preventDefault();
+  //   }
+  // }
+  // const history = useHistory();
+  const [loading, setLoading] = useState(false);
+  const [buttonIndex, setButtonIndex] = useState(0);
+  const navigate = useNavigate();
+  const handleNavigation = (path, index) => {
+    // setLoading(true);
+    setButtonIndex(index)
+    setTimeout(() => {
+      navigate(path)
+    }, 200);
+  };
 
   return (
     <AppHeaderWrapper>
@@ -29,9 +38,9 @@ const AppHeader = memo(() => {
         {
           info.map((item, index) => {
             return (
-              <NavLink to={link[index]} className="topics" key={item} onClick={ (e) => handler(e, link[index])}>
+              <div className={`topics ${buttonIndex === index ? 'active' : '' }` } key={item} onClick={()=> handleNavigation(link[index], index) }>
                 {item}
-              </NavLink>
+              </div>
             )
           })
         }

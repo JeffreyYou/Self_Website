@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImage from '../../assets/images/picture04.jpg';
+import backgroundImage from '../../assets/images/picture01.jpg';
 
 export const HomeWrapper = styled.div`
     background-image: url(${backgroundImage});

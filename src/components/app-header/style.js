@@ -22,7 +22,6 @@ export const AppHeaderWrapper = styled.div`
 
 export const HeaderLeft = styled.div`
     width:15%;
-
     height:30px;
 
 `
@@ -51,6 +50,7 @@ export const HeaderMiddle = styled.div`
         /* background-color: rgba(0, 0, 0, 0.2);
          */
         z-index: 999;
+        cursor: pointer;
 
     }
 
@@ -64,10 +64,11 @@ export const HeaderMiddle = styled.div`
         z-index:998;
 
         border: 1.5px solid white;
-        /* background-color: rgba(0, 0, 0, 0.2); */
         background: transparent;
         transition: all .2s ease 0s;
     }
+    /* background-color: rgba(0, 0, 0, 0.2); */
+
 
     .topics:nth-child(1).active ~ .shadow-animation {
         left: 0;
