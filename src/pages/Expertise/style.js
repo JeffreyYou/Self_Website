@@ -9,17 +9,23 @@ export const ExpertiseWrapper = styled.div`
     height: 100vh;
     /* background: linear-gradient(to left top, yellow, blue, red); */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items:center;
+    flex-direction: column;
+
     background: transparent;
     background-image: url(${backgroundImage});
     background-size: 100%;
     background-position: 0% 0%;
-    transition: background-image 2s ease-in-out;
-
+    /* transition: background-image 2s ease-in-out; */
 
 `
-
+export const ExpertiseTop = styled.div`
+    height: 10vh;
+    width: 100vw;
+    /* background-color: grey; */
+    
+`
 export const ExpertiseContent = styled.div`
     width: 70vw;
     height: 70vh;
@@ -32,12 +38,12 @@ export const ExpertiseContent = styled.div`
     /* height: 100vh; */
     background-size: 100%;
     background-position: 0% 30%;
-
     
 `
 
 export const Title = styled.div`
     font-size: 6vw;
+    /* font-size: 140px; */
     color: white;
     font-family: "play-google";
     margin-bottom: 7vh;

@@ -30,19 +30,20 @@ const Home = memo(() => {
   }
   
   return (
-    <motion.div
-      style={{ flex: 1,  backgroundImage: "url(" + {backgroundImage} + ")" }}
+    // <motion.div
+      // style={{ flex: 1,  backgroundImage: "url(" + {backgroundImage} + ")" }}
       // variants={transitionVariants}
       // initial={"initial"}
       // animate={"animate"}
       // exit={"exit"}
-      className='wrapper-center home'
+      // className='wrapper-center home'
       // initial={{ x: "-100%"}}
       // animate={{ x:0, transition: {duration: 0.5, type: "spring"}}}
       // exit={{ x: "-100%"}}
       // , transition: {duration: 0.5}
       // backgroundImage: 'url("../images/picture02.jpg")'
-    >
+    // >
+    <div className='home-wrapper-wrapper'>
       <HomeWrapper>
         {/* <img className='bgc' src={require('../../assets/images/picture04.jpg')}></img> */}
         <Intro />
@@ -60,10 +61,10 @@ const Home = memo(() => {
         </NavLink>
 
       </HomeWrapper>
+    </div>
 
 
-
-    </motion.div>
+    // </motion.div>
   )
 })
 
