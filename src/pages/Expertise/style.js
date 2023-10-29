@@ -18,13 +18,12 @@ export const ExpertiseWrapper = styled.div`
     background-size: 100%;
     background-position: 0% 0%;
     /* transition: background-image 2s ease-in-out; */
-
 `
 export const ExpertiseTop = styled.div`
     height: 10vh;
     width: 100vw;
+    min-height: 100px;
     /* background-color: grey; */
-    
 `
 export const ExpertiseContent = styled.div`
     width: 70vw;

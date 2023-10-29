@@ -3,11 +3,10 @@ import { motion } from 'framer-motion'
 
 const Project = memo(() => {
   return (
-    <motion.div
-    
-    >
-      Project
-    </motion.div>
+    <div>
+
+      
+    </div>
   )
 })
 

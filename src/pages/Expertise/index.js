@@ -70,6 +70,7 @@ const Expertise = memo(() => {
     // animate={{ x: 0 }}
     // exit={{ x: "-100%" }}
     // >
+    <div>
       <ExpertiseWrapper>
         <ExpertiseTop/>
         <ExpertiseContent>
@@ -77,7 +78,7 @@ const Expertise = memo(() => {
             variants={transitionVariants}
             initial="initial"
             animate="animate"
-            transition={{ delay: 0.3, duration: 0.3 }}
+            transition={{ delay: 0, duration: 0.3 }}
           >
             <Title>My Expertise</Title>
           </motion.div>
@@ -87,7 +88,7 @@ const Expertise = memo(() => {
               variants={transitionVariants}
               initial="initial"
               animate="animate"
-              transition={{ delay: 0.6, duration: 0.3 }}
+              transition={{ delay: 0.3, duration: 0.3 }}
             >
               <SkillBar data={data[0]} svgComponent={<ComputerLogo style={{ width: "45px", height: "45px" }} />} />
               <SkillBar data={data[1]} svgComponent={<ReactLogo style={{ width: "50px", height: "50px" }} />} />
@@ -96,7 +97,7 @@ const Expertise = memo(() => {
           </List>
         </ExpertiseContent>
       </ExpertiseWrapper>
-    // </motion.div>
+    </div>
   )
 })
 
