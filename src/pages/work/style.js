@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import backgroundImage from '../../assets/images/picture03.jpg';
 import projectImage from '../../assets/images/picture09.png';
+import OpenAiImage from '../../assets/images/openai.png';
+import WebsiteImage from '../../assets/images/website.jpg';
+import FTPImage from '../../assets/images/ftp.jpg';
+import AICharacterImage from '../../assets/images/ai_character.jpg';
 
 export const WorkWrapper = styled.div`
     background-image: url(${backgroundImage});
@@ -63,6 +67,28 @@ export const WorkCenter = styled.div`
         background-size: cover;
     }
 
+    .open-ai {
+        background-image: url(${OpenAiImage});
+        background-size: cover;
+        background-position: 30% 30%;
+
+    }
+    .website {
+        background-image: url(${WebsiteImage});
+        background-size: cover;
+        background-position: 30% 30%;
+    }
+    .fast-ftp {
+        background-image: url(${FTPImage});
+        background-size: cover;
+        background-position: 30% 30%;
+    }
+    .ai-character {
+        background-image: url(${AICharacterImage});
+        background-size: cover;
+        background-position: 30% 30%;
+    }
+
 ` 
 
 export const WorkDemo = styled.div`
@@ -87,7 +113,7 @@ export const WorkDemo = styled.div`
     }
     cursor: pointer;
     &:hover {
-        background-color: rgba(33, 202, 127, 0.4);
+        background-color: rgba(33, 202, 127, 0.8);
         .text-info {
             /* display: block; */
             opacity: 1;

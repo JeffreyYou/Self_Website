@@ -48,7 +48,7 @@ const Home = memo(() => {
         {/* <img className='bgc' src={require('../../assets/images/picture04.jpg')}></img> */}
         <Intro />
 
-        <NavLink to="/exp" key="toExp" className="go-right">
+        {/* <NavLink to="/exp" key="toExp" className="go-right">
           <motion.div
             variants={transitionVariants}
             initial="initial"
@@ -58,7 +58,7 @@ const Home = memo(() => {
           >
             <RightArrowLogo className='logo' />
           </motion.div>
-        </NavLink>
+        </NavLink> */}
 
       </HomeWrapper>
     </div>
