@@ -4,7 +4,12 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
     padding: 0;
     margin: 0;
 }
-
+body {
+    background: black;
+}
+html {
+    scroll-snap-type: y mandatory;
+}
 .root-page {
     display: flex;
     flex-direction: column;
@@ -12,7 +17,8 @@ body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, sectio
 
     /* background-image: url("../images/picture04.jpg"); */
     height: 100vh;
-
+    height: auto;
+    /* background-color: black; */
     z-index: 1;;
     transition: background-image 1s ease-in-out;
 

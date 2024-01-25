@@ -16,12 +16,12 @@ function App() {
   useEffect(() => {
     imagesToPreload.forEach((image) => {
       const img = new Image();
-      // img.onload = () => {
-      //   console.log("loaded image", image)
-      // }
-      // img.onerror = () => {
-      //   console.error("Error loading image", image);
-      // };
+      img.onload = () => {
+        console.log("loaded image", image)
+      }
+      img.onerror = () => {
+        console.error("Error loading image", image);
+      };
       img.src = image;
     })
   }, [])

@@ -70,7 +70,7 @@ const Expertise = memo(() => {
     // animate={{ x: 0 }}
     // exit={{ x: "-100%" }}
     // >
-    <div>
+    <div style={{height:"100vh"}}>
       <ExpertiseWrapper>
         <ExpertiseTop/>
         <ExpertiseContent>

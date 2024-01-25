@@ -6,7 +6,7 @@ const navBarHeight = '16px';
 export const ExpertiseWrapper = styled.div`
     width: 100vw;
     /* height: calc(100vh - 60px) ; */
-    height: 100vh;
+    min-height: 100vh;
     /* background: linear-gradient(to left top, yellow, blue, red); */
     display: flex;
     /* justify-content: center; */
@@ -15,6 +15,7 @@ export const ExpertiseWrapper = styled.div`
 
     background: transparent;
     background-image: url(${backgroundImage});
+    background-attachment: fixed;
     background-size: 100%;
     background-position: 0% 0%;
     /* transition: background-image 2s ease-in-out; */
@@ -22,12 +23,12 @@ export const ExpertiseWrapper = styled.div`
 export const ExpertiseTop = styled.div`
     height: 10vh;
     width: 100vw;
-    min-height: 100px;
+    min-height: 90px;
     /* background-color: grey; */
 `
 export const ExpertiseContent = styled.div`
-    width: 70vw;
-    height: 70vh;
+    min-width: 70vw;
+    min-height: 70vh;
     /* background-color: grey; */
     display: flex;
     justify-content: center;
@@ -52,6 +53,7 @@ export const Title = styled.div`
 export const List = styled.div`
     width: 100%;
     height: 100%;
+    min-height: 530px;
     display:flex;
     justify-content: center;
     /* background-color: green; */

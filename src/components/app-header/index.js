@@ -1,5 +1,5 @@
 import React, { memo, useState} from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate, useLocation } from 'react-router-dom'
 
 import {
   AppHeaderWrapper,
@@ -11,8 +11,8 @@ import {
 
 const AppHeader = memo(() => {
 
-  const info = ["Home", "Expertise", "Work", "Project", "Contact"];
-  const link = ["/", "/exp", "/work", "/project", "/contact"];
+  const info = ["Home", "Expertise", "Project", "Contact"];
+  const link = ["/", "/exp", "/project", "/contact"];
 
   // const location = useLocation();
   // const handler = (e, link) => {
@@ -21,8 +21,16 @@ const AppHeader = memo(() => {
   //   }
   // }
   // const history = useHistory();
+  const location = useLocation();
+  let pageIndex = 0;
+  link.map((item, index) => {
+    if (location.pathname === item) {
+      pageIndex = index;
+    }
+  })
+
   const [loading, setLoading] = useState(false);
-  const [buttonIndex, setButtonIndex] = useState(0);
+  const [buttonIndex, setButtonIndex] = useState(pageIndex);
   const navigate = useNavigate();
   const handleNavigation = (path, index) => {
     // setLoading(true);

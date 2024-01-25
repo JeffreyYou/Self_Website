@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillBarWrapper = styled.div`
-    width: 350px;
+    width: 380px;
     height: 100%;
     /* background-color: red; */
     display: inline-block;
@@ -78,7 +78,7 @@ export const Content = styled.div`
     .skill-wrapper {
         width: 70%;
         position:absolute;
-        height: 360px;
+        /* height: 360px; */
         left: 50%;
         transform: translate(-50%, 0);
 
@@ -89,13 +89,13 @@ export const Content = styled.div`
             }
         }
         .skill::before {
-        content: "<h3>";
-        opacity: 0.5;
-        color: white;
-        display: block;
-        margin-left: -35px;
-        font-weight: normal;
-        font-size: 14px;
+            content: "<h3>";
+            opacity: 0.5;
+            color: white;
+            display: block;
+            margin-left: -35px;
+            font-weight: normal;
+            font-size: 14px;
         }
 
         .skill::after {

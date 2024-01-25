@@ -13,8 +13,8 @@ export const AppHeaderWrapper = styled.div`
     /* border:1px solid; */
     border-radius: 30px;
     box-shadow: 0 0 5px 0.1px;
-    background: transparent;
-
+    /* background: transparent; */
+    background:black;
     left: 50%;
     transform: translate(-50%, 0);
 
@@ -28,7 +28,7 @@ export const HeaderLeft = styled.div`
 export const HeaderMiddle = styled.div`
 
 
-    width: 450px;
+    width: 360px;
     height:60px;
     
     display: flex;
@@ -82,9 +82,7 @@ export const HeaderMiddle = styled.div`
     .topics:nth-child(4).active ~ .shadow-animation {
         left: 276px;
     }
-    .topics:nth-child(5).active ~ .shadow-animation {
-        left: 368px;
-    }
+    
 
 `
 export const HeaderRight = styled.div`

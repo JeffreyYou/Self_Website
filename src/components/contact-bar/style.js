@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactBarWrapper = styled.div`
-    position: absolute;
+    position: fixed;
     left: 2%;
     bottom: 3%;
     width: 60px;
