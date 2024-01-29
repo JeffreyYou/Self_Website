@@ -9,9 +9,14 @@ import AnimatedRoute from "./components/animate-route"
 
 import HomeBackgroundImage from './assets/images/picture01.jpg'
 import ExpertiseBackgroundImage from './assets/images/picture02.jpg'
+import ProjectBackgroundImage from './assets/images/picture03.jpg'
+import JeffreyProfile from './assets/images/Jeffrey.jpg'
+import FTPImage from './assets/images/ftp.jpg'
+import AiCharacterImage from './assets/images/ai_character.jpg'
+
 
 function App() {
-  const imagesToPreload = [ExpertiseBackgroundImage, HomeBackgroundImage];
+  const imagesToPreload = [ExpertiseBackgroundImage, HomeBackgroundImage, ProjectBackgroundImage, FTPImage, AiCharacterImage, JeffreyProfile];
 
   useEffect(() => {
     imagesToPreload.forEach((image) => {

@@ -80,7 +80,7 @@ export const HeaderMiddle = styled.div`
         left: 184px;
     }
     .topics:nth-child(4).active ~ .shadow-animation {
-        left: 276px;
+        left: 279px;
     }
     
 

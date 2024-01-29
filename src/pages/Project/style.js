@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import backgroundImage from '../../assets/images/picture03.jpg';
 import projectImage from '../../assets/images/picture09.png';
-import OpenAiImage from '../../assets/images/openai.png';
+// import OpenAiImage from '../../assets/images/openai.png';
 import WebsiteImage from '../../assets/images/website.jpg';
 import FTPImage from '../../assets/images/ftp.jpg';
 import AICharacterImage from '../../assets/images/ai_character.jpg';
-
+import OpenAiSDKImage from '../../assets/images/sdk.png';
 export const WorkWrapper = styled.div`
     background-image: url(${backgroundImage});
     width: 100vw;
@@ -68,7 +68,7 @@ export const WorkCenter = styled.div`
     }
 
     .open-ai {
-        background-image: url(${OpenAiImage});
+        background-image: url(${OpenAiSDKImage});
         background-size: cover;
         background-position: 30% 30%;
 
@@ -104,12 +104,11 @@ export const WorkDemo = styled.div`
     .text-info {
         color: white;
         font-family: "play-google";
-        font-size: 40px;
+        font-size: 35px;
         /* display: none; */
         transition: opacity 0.9s ease;
         opacity: 0;
         /* visibility: hidden; */
-
     }
     cursor: pointer;
     &:hover {

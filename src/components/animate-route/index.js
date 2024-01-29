@@ -21,7 +21,7 @@ const AnimatedRoute = memo(() => {
                 <Route exact path='/' element={<HomeLazy />} />
                 <Route path='/exp' element={<ExpertiseLazy />} />
                 <Route path='/project' element={<ProjectLazy />} />
-                <Route path='/contact' element={<InfoLazy />} />
+                <Route path='/about' element={<InfoLazy />} />
             </Routes>
         </AnimatePresence>
     )

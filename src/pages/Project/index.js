@@ -60,7 +60,7 @@ const Project = memo(() => {
                 whileTap={ {scale: 0.9}}
                 transition={{ delay: 0, duration: 0.3 }}
                 >
-              <WorkDemo><p className='text-info'>AI Character</p></WorkDemo>
+              <WorkDemo><p className='text-info'>Digital Character</p></WorkDemo>
             </motion.div>
         </a>
         <a href='https://github.com/JeffreyYou' target="_blank" className='a-link'>
@@ -88,7 +88,7 @@ const Project = memo(() => {
                 whileTap={ {scale: 0.9}}
                 transition={{ delay: 0, duration: 0.3 }}
                 >
-              <WorkDemo><p className='text-info'>Fast FTP</p></WorkDemo>
+              <WorkDemo><p className='text-info'>File Transfer Protocol</p></WorkDemo>
             </motion.div>
         </a>
         <a href='https://github.com/JeffreyYou/OpenAI_SDK' target="_blank" className='a-link'>

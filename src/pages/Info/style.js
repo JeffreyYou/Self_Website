@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SelfImage1 from '../../assets/images/Jeffrey.jpg';
 
 export const InfoWrapper = styled.div`
     font-family: "play-google";
@@ -12,6 +13,7 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
+  /* background-color: red; */
   scroll-snap-align: center;
   perspective: 1500px;
 }
@@ -32,16 +34,24 @@ section {
 .placeholder {
     width: 70vw;
     height: 70vh;
-    border: 1px solid white;
-    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
     overflow: hidden;
     position: relative;
-    max-height: 90vh;
-    margin: 20px;
+    margin: 20px 0; 
 
 }
-.text {
-
+button {
+    color: white;
+    background-color: black; 
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
 }
 .progress-bar {
   position: fixed;
@@ -66,3 +76,28 @@ section {
 }
 
 `
+export const AboutMe = styled.div`
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    /* align-items:center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+`
+export const ImageWrapper = styled.div`
+    width: 40%;
+    height: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+`
+export const Image = styled.div`
+  background-image: url(${SelfImage1});
+  background-size: cover;
+  background-position: 30% 30%;
+  width: 100%;
+  height: 100%;
+`
+
+

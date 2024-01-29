@@ -76,16 +76,17 @@ export const Content = styled.div`
 
 
     .skill-wrapper {
-        width: 70%;
+        width: 80%;
         position:absolute;
         /* height: 360px; */
-        left: 50%;
-        transform: translate(-50%, 0);
+        left: 15%;
+        /* transform: translate(-50%, 0); */
 
         .skill {
             height: 100%;
             .skill-inner{
                 height: 320px;
+                font-size: 14px;
             }
         }
         .skill::before {
@@ -123,4 +124,11 @@ export const Content = styled.div`
 
 
 
+`
+
+export const SkillTitle = styled.div`
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 1px;
 `

@@ -11,8 +11,8 @@ import {
 
 const AppHeader = memo(() => {
 
-  const info = ["Home", "Expertise", "Project", "Contact"];
-  const link = ["/", "/exp", "/project", "/contact"];
+  const info = ["Home", "Expertise", "Project", "About"];
+  const link = ["/", "/exp", "/project", "/about"];
 
   // const location = useLocation();
   // const handler = (e, link) => {
