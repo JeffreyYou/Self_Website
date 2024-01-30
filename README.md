@@ -3,7 +3,7 @@
   <a href="https://jeffreyyou.com" target="_blank">jeffreyyou.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Image/computer.png" />
+  <img alt="Demo" src="./image/computer.png" />
 </div>
 
 <br/>
