@@ -84,7 +84,8 @@ export const AboutMe = styled.div`
     /* align-items:center; */
     /* justify-content: center; */
     flex-direction: column;
-
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
 `
 export const ImageWrapper = styled.div`
     width: 40%;

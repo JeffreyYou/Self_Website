@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import backgroundImage from '../../assets/images/picture03.jpg';
-import projectImage from '../../assets/images/picture09.png';
+import projectImage from '../../assets/images/forum.jpg';
+import WeChatGPTImage from '../../assets/images/wechat-gpt.png';
 // import OpenAiImage from '../../assets/images/openai.png';
-import WebsiteImage from '../../assets/images/website.jpg';
+import WebsiteImage from '../../assets/images/website.png';
 import FTPImage from '../../assets/images/ftp.jpg';
 import AICharacterImage from '../../assets/images/ai_character.jpg';
 import OpenAiSDKImage from '../../assets/images/sdk.png';
@@ -63,8 +64,13 @@ export const WorkCenter = styled.div`
         width: 100%;
         height: 100%;
         z-index: 999;
+        /* background-image: url(${projectImage}); */
+        /* background-size: cover; */
+    }
+    .microservice {
         background-image: url(${projectImage});
         background-size: cover;
+        background-position: 30% 30%;
     }
 
     .open-ai {
@@ -72,6 +78,11 @@ export const WorkCenter = styled.div`
         background-size: cover;
         background-position: 30% 30%;
 
+    }
+    .wechat-gpt {
+        background-image: url(${WeChatGPTImage});
+        background-size: cover;
+        background-position: 50% 30%;
     }
     .website {
         background-image: url(${WebsiteImage});

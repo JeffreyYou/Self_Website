@@ -42,18 +42,18 @@ const Project = memo(() => {
               className="motion-div"
         >
 
-        <a href=''  className='a-link'>
+        <a href='https://github.com/JeffreyYou'  className='a-link'  rel="noreferrer">
             <motion.div 
-                className='motion-box wechat-gpt'
+                className='motion-box microservice'
                 // whileHover={ {scale: 1.2, backgroundColor: "#105b72c2"}}
                 whileHover={ {scale: 1.2}}
                 whileTap={ {scale: 0.9}}
                 transition={{ delay: 0, duration: 0.5 }}
                 >
-              <WorkDemo><p className='text-info'>WeChat GPT</p></WorkDemo>
+              <WorkDemo><p className='text-info'>Microservices Platform</p></WorkDemo>
             </motion.div>
         </a>
-        <a href='https://github.com/JeffreyYou' target="_blank" className='a-link'>
+        <a href='https://github.com/JeffreyYou' target="_blank" className='a-link'  rel="noreferrer">
             <motion.div 
                 className='motion-box ai-character'
                 whileHover={ {scale: 1.2}}
@@ -63,14 +63,14 @@ const Project = memo(() => {
               <WorkDemo><p className='text-info'>Digital Character</p></WorkDemo>
             </motion.div>
         </a>
-        <a href='https://github.com/JeffreyYou' target="_blank" className='a-link'>
+        <a href='https://github.com/JeffreyYou/WeChatGPT-Web' target="_blank" className='a-link'  rel="noreferrer">
             <motion.div 
-                className='motion-box microservice'
+                className='motion-box wechat-gpt'
                 whileHover={ {scale: 1.2}}
                 whileTap={ {scale: 0.9}}
                 transition={{ delay: 0, duration: 0.3 }}
                 >
-              <WorkDemo><p className='text-info'>Microservice Mall</p></WorkDemo>
+              <WorkDemo><p className='text-info'>WeChat GPT</p></WorkDemo>
             </motion.div>
         </a>
         </motion.div>
@@ -81,7 +81,7 @@ const Project = memo(() => {
             transition={{ delay: 0.6, duration: 0.3 }}
             className="motion-div"
       >
-        <a href='https://github.com/JeffreyYou/Fast-Realibal-FTP' target="_blank" className='a-link'>
+        <a href='https://github.com/JeffreyYou/Fast-Realibal-FTP' target="_blank" className='a-link'  rel="noreferrer">
             <motion.div 
                 className='motion-box fast-ftp'
                 whileHover={ {scale: 1.2}}
@@ -91,7 +91,7 @@ const Project = memo(() => {
               <WorkDemo><p className='text-info'>File Transfer Protocol</p></WorkDemo>
             </motion.div>
         </a>
-        <a href='https://github.com/JeffreyYou/OpenAI_SDK' target="_blank" className='a-link'>
+        <a href='https://github.com/JeffreyYou/OpenAI_SDK' target="_blank" className='a-link'  rel="noreferrer">
             <motion.div 
                 className='motion-box open-ai'
                 whileHover={ {scale: 1.2}}
@@ -101,14 +101,14 @@ const Project = memo(() => {
               <WorkDemo><p className='text-info'>OpenAI SDK</p></WorkDemo>
             </motion.div>
         </a>
-        <a href='https://github.com/JeffreyYou/Self_Website' target="_blank" className='a-link'>
+        <a href='https://github.com/JeffreyYou/Self_Website' target="_blank" className='a-link'  rel="noreferrer">
             <motion.div 
                 className='motion-box website'
                 whileHover={ {scale: 1.2}}
                 whileTap={ {scale: 0.9}}
                 transition={{ delay: 0, duration: 0.3 }}
                 >
-              <WorkDemo><p className='text-info'>Self Website</p></WorkDemo>
+              <WorkDemo><p className='text-info'>Portfolio Website</p></WorkDemo>
             </motion.div>
         </a>
       </motion.div>
