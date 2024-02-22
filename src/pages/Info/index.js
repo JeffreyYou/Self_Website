@@ -41,7 +41,7 @@ const Info = memo(() => {
               <div style={{ display:'flex', flexDirection:'column', height: 'calc(100% - 200px)'}}>
                 <div style={{ fontSize: '22px', padding: '0 50px 50px' }}>My Name is Jeffrey (Qinsongen) You, Nice to meet you!</div>
                 <div style={{ fontSize: '22px', padding: ' 50px' }}>I'm a full-stack software enginner with the passion and enthusiasm to embarce the new and innovating technologies. Technology has become a big part of all of our lives, and I seek to become a big part of tech as well.</div>
-                <div style={{ fontSize: '22px', padding: ' 50px' }}>I bevelie the hardest part of anything is starting it. Always say Watch Me, not Why Me.</div>
+                <div style={{ fontSize: '22px', padding: ' 50px' }}>I bevelie the hardest part of anything is starting it. Always say Watch Me, not Why Me. Thank you for taking the time to view my website, I hope we have a chance to work together.</div>
               </div>
             </AboutMe>
             <ImageWrapper><Image /></ImageWrapper>

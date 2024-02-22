@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://jeffreyyou.com" target="_blank">jeffreyyou.com</a>
+  <a href="https://jeffreyyou.com/website" target="_blank">jeffreyyou.com</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./image/computer.png" />
@@ -39,6 +39,4 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 1. Installation: `npm install`
 
 2. In the project directory, you can run: `npm start`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
